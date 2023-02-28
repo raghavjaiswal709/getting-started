@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int n,m;
+    cout<<"enter the base number: ";
+    cin>>n;
+
+    cout<<"enter the power number: ";
+    cin>>m;
+
+    int result=1;
+    for(int i=1; i<=m; i++)
+    result=result*=n;
+
+    cout<<result<<endl;
+
+    return 0;
+}
+
+
+output:
+
+enter the base number: 4
+enter the power number: 5
+1024
